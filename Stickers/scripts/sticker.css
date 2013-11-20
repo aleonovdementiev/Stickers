@@ -1,0 +1,19 @@
+﻿
+.stick_board{	
+	display: block;
+	height: 500px;	
+	width:500px;
+	background-color: green;
+}
+
+.sticker {		
+	border-radius: 5px;
+	float:left;
+	display: block;
+	overflow: auto;
+	height: 50px;	
+	width:150px;
+	background-color: yellow;
+	color: #000000;
+	margin: 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html>
+	
+		<head>
+			<meta charset="utf-8">
+
+            <link rel="stylesheet" href="scripts/sticker.css" />
+
+			<title>Backbone Cats</title>
+			<script src="libs/jquery.js"></script>
+            <script src="libs/underscore.js"></script>
+            <script src="libs/backbone.js"></script>
+            
+            <script src="scripts/sticker-model.js"></script>
+            <script src="scripts/collection-model.js"></script>
+            <script src="scripts/sticker-controller.js"></script>
+            <script src="scripts/collection-controller.js"></script>
+            <script src="scripts/script.js"></script>
+            <!--<script src="scripts/stickers.js"></script>-->
+            
+            <script type="text/template" id="sticker-tpl">			
+                <%=stickertext%>		
+            </script>
+		</head>
+		<body>
+			<div class="header">
+				<p>Backbone Stickers</p>
+			</div>
+            <div id="sticker_board" class="stick_board">
+            
+			</div>
+		</body>
+	</html>
+	
+	
